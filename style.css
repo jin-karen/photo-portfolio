@@ -1,0 +1,26 @@
+body{
+    margin: 20px 40px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.nav-container{
+    display: grid;
+    grid-template-columns: 90% 5% 5%;
+}
+
+/* .nav-item{
+    
+} */
+
+#navbar{
+    font-size: 20px;
+    display: grid;
+}
+
+#brand{
+    font-size: 30px;
+}
+
+#artist{
+    font-size: 15px;
+}
