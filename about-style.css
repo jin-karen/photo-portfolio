@@ -1,0 +1,109 @@
+#typeWriter{
+    margin: 40px 80px;
+    font-size: 25px;
+    text-align: center;
+}
+
+#aboutHeader{
+    font-size: 25px;
+}
+
+#aboutMe{
+    margin: 100px 80px;
+    display: grid;
+    grid-template-columns: 25% 25%;
+    justify-content: center;
+    gap: 40px;
+    height: 50%;
+}
+
+#aboutMeDesc{
+    height: 70%;
+}
+
+#aboutInfo{
+    font-size: 18px;
+}
+
+#aboutMePost{
+    background-color: white;
+    aspect-ratio: .8;
+    border-radius: 5%;
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+    grid-template-rows: 10% 72% 18%;
+    border: 1px solid black;
+}
+
+#aboutMeUser{
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+#aboutMeUser img{
+    height: 60%;
+}
+ 
+#aboutMeUsername{
+    font-weight: bold;
+    padding-left: 10px;
+    font-size: 1vw;
+}
+
+#aboutMeImg{
+    border: 1px solid black;
+}
+
+#aboutMeImg img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#aboutMeReacts{
+    display: flex;
+    height: 30%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+#leftReacts, #rightReacts{
+    display: flex;
+    height: 100%;
+}
+
+#iconComment{
+    padding: 0px 10px;
+}
+
+#aboutFooter{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+/* Large devices (1201px to 1500px) */
+@media only screen and (max-width: 1500px) {
+}
+
+/* Large devices (993px to 1200px) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media only screen and (max-width: 992px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 577px to 768px) */
+@media only screen and (max-width: 768px) {
+
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+
+}

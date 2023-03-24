@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sated craving</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="loader"></div>
+    <div id="navbar" class="navContainer">
+        <div id="brand"><a href="./index.html">sated craving <span id="artist">by kj</span></a></div>
+        <div id="home" class="navTab"><a href="./index.html">home</a></div>
+        <div id="about" class="navTab"><a href="./about.html">about</a></div>
+        <div id="travel" class="navTab"><a href="./travel.html">travel</a></div>
+        <div id="contact">
+            <a href="https://www.instagram.com/satedcraving/" title="instagram" target="blank">
+                <img id="insta" src="img/insta-dark.png" alt="Instagram Icon">
+            </a>
+        </div>  
+        <div id="darkModeBtn">
+            <input type="checkbox" class="checkbox" id="checkbox">
+            <label for="checkbox" class="label" id="label">
+                <div class="ball" id="ball"></div>
+            </label>
+        </div>
+        <button type="button" id="collapsible" class="hidden">&#x2261</button>
+    </div>
+    <div id="navContent" class="hidden">
+        <ul>
+            <a href="./index.html"><li class="navLinks">home</li></a>
+            <a href="./about.html"><li class="navLinks">about</li></a>
+            <a href="./travel.html"><li class="navLinks">travel</li></a>
+        </ul>
+    </div>
+    <div id="typeWriter">
+        <span id="typeStatic">satedcraving is</span>
+        <span id="typeDynamic"></span>
+    </div>
+    <div id="aboutMe">
+        <!-- <div id="aboutMeImg"><img src="img/logo.png"></div> -->
+        <div id="aboutMePost">
+            <div id="aboutMeUser">
+                <img src="img/profile-pic.png">
+                <div id="aboutMeUsername">satedcraving</div>
+            </div>
+            <div id="aboutMeImg"><img src="img/logo.png"></div>
+            <div id="aboutMeReacts">
+                <div id="leftReacts">
+                    <img id="iconHeart" src="img/icon-heart.png">
+                    <img id="iconComment" src="img/icon-comment.png">
+                    <img id="iconSend" src="img/icon-send.png">
+                </div>
+                <div id="rightReacts">
+                    <img id="iconBookmark" src="img/icon-bookmark.png">
+                </div>
+            </div>
+        </div>
+        <div id="aboutMeDesc">
+            <p id="aboutHeader">about me</p>
+            <p id="aboutInfo">
+                Sated Craving was founded in November 2019 as a creative outlet to showcase the beauty and charm 
+                of food. It was a way to document food adventures for kj's own memories and to share with others. 
+                The instagram account was founded as eatandrepeat_adv and rebranded in March of 2022 to satedcraving 
+                to represent kj's ever-increasing passion for food, each craving sated with every new experience. 
+                Sated Craving is currently based in New York City but dedicates itself to maintaining a global 
+                perspective and exhibiting unbounded displays.
+            </p>
+        </div>
+    </div>
+
+    <div id="aboutFooter">© 2023 Sated Craving</div>
+    <script src="script.js"></script>
+    <script src="about-script.js"></script>
+</body>
+</html>

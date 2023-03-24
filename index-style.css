@@ -1,0 +1,36 @@
+.imgContainer{
+    margin: 30px 80px;
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: space-between;
+    align-content: space-between;
+    gap: 20px;
+}
+
+.imgItem{
+    object-fit: cover;
+    width: 100%;
+    aspect-ratio: 1; /* pseudoelement to make width to height ratio 1:1 */
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media only screen and (max-width: 992px) {
+    .imgContainer{
+        margin: 30px 20px;
+        grid-template-columns: 23% 23% 23% 23%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 577px to 768px) */
+@media only screen and (max-width: 768px) {
+    .imgContainer{
+        margin: 10px 0px;
+        gap: 5px;
+        grid-template-columns: 24% 24% 24% 24%;
+    }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+
+}

@@ -1,16 +1,44 @@
-body{
-    margin: 20px 40px;
+html, body{
     font-family: 'Quicksand', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
-.nav-container{
-    display: grid;
-    grid-template-columns: 90% 5% 5%;
+a{
+    color: black;
+    text-decoration: none;
 }
 
-/* .nav-item{
-    
+a:hover{
+    cursor: pointer;
+}
+
+.darkMode {
+    background-color: #162736 !important; /* !important to override ball background-color */
+    color: white !important; /* !important to override coll color */
+}
+
+/* .lightMode {
+    background-color: white; 
+    color: black; 
 } */
+
+.hidden {
+    display: none;
+}
+
+.navContainer{
+    margin: 0px 40px;
+    padding: 20px 0px;
+    display: grid;
+    grid-template-columns: 79% 5% 5% 5% 3% 3%;
+}
+
+.navTab{
+    position: relative;
+    top: 5px;
+}
 
 #navbar{
     font-size: 20px;
@@ -23,4 +51,137 @@ body{
 
 #artist{
     font-size: 15px;
+}
+
+#home{
+    text-align: right;
+}
+
+#about{
+    text-align: right;
+}
+
+#travel{
+    text-align: right;
+}
+
+#contact{
+    text-align: right;
+    position: relative;
+    top: 10px;
+}
+
+#insta{
+    max-width: 20px;
+}
+
+#darkModeBtn{
+    position: relative;
+    top: 10px;
+}
+
+.label {
+    width: 20px;
+    padding: 5px;
+    height: 9px;
+    background-color: black;
+    border-radius: 50px;
+    display: block;
+    float: right;
+    cursor: pointer;
+}
+
+.checkbox {
+    opacity: 0; /* makes checkbox invisible */
+    position: absolute; /* makes sure checkbox does not affect spacing */
+}
+
+.ball {
+    position: relative;
+    bottom: 3px;
+    right: 3px;
+    width: 15px;
+    height: 15px;
+    background-color: white;
+    border-radius: 30px;
+    transition: transform 0.3s linear; /* moves the ball slower when checked */
+}
+
+/* Moves the ball in the label when toggled/checked */
+.checkbox:checked + .label .ball {
+    transform: translateX(11px);
+}
+
+#footer{
+    text-align: center;
+}
+
+/* Large devices (1201px to 1500px) */
+@media only screen and (max-width: 1500px) {
+    .navContainer{
+        grid-template-columns: 71% 7% 7% 7% 4% 4%;
+    }
+}
+
+/* Medium devices (landscape tablets, 769px to 992px) */
+@media only screen and (max-width: 992px) {
+    .navContainer{
+        grid-template-columns: 60% 10% 10% 10% 5% 5%;
+        margin: 0px 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 577px to 768px) */
+@media only screen and (max-width: 768px) {
+    .navContainer{
+        grid-template-columns: 50% 12% 12% 12% 7% 7%;
+    }
+}
+
+/* Extra small devices (phones, 576px and down) */
+@media only screen and (max-width: 576px) {
+    .navContainer{
+        margin: 0px 10px;
+        grid-template-columns: 70% 10% 10% 10%;
+    }
+    #collapsible {
+        display: block;
+        color: black;
+        cursor: pointer;
+        border: none;
+        background-color: transparent;
+    }
+    .active, #collapsible:hover {
+        background-color: #ccc;
+    }
+    #navContent {
+        display: none;
+        overflow: hidden;
+        background-color: #ccc;
+        width: 100%;
+    }
+    #navContent ul{
+        padding: 0px;
+        margin: 5px 0px;
+
+    }
+    #navContent li{
+        list-style-type: none;
+        text-align: center;
+    }
+    #navContent li:hover{
+        color: white ;
+    }
+    .navLiDarkMode:hover{
+        color: #ccc !important; /* !important to override navContent background-color */
+    }
+    #home,#about,#travel{
+        display: none;
+    }
+    #contact{
+        text-align: center;
+    }
+    #label{
+        float: none;
+    }
 }
