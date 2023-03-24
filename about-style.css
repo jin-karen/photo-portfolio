@@ -11,7 +11,7 @@
 #aboutMe{
     margin: 100px 80px;
     display: grid;
-    grid-template-columns: 25% 25%;
+    grid-template-columns: 25.1% 25.1%;
     justify-content: center;
     gap: 40px;
     height: 50%;
@@ -86,24 +86,55 @@
 
 /* Large devices (1201px to 1500px) */
 @media only screen and (max-width: 1500px) {
+    #aboutMe{
+        grid-template-columns: 35% 35%;
+    }
 }
 
 /* Large devices (993px to 1200px) */
 @media only screen and (max-width: 1200px) {
-
+    #aboutMe{
+        grid-template-columns: 45% 45%;
+    }
 }
 
 /* Medium devices (landscape tablets, 769px to 992px) */
 @media only screen and (max-width: 992px) {
-
+    #typeWriter{
+        margin: 10px 80px 30px 80px;
+    }
+    #aboutMe{
+        margin: 20px 80px;
+        grid-template-columns: 65%;
+        grid-template-rows: 50% 50%;
+        height: 80%;
+        gap: 0px;
+        text-align: center;
+    }
+    #aboutMePost{
+        width: 300px;
+        justify-self: center;
+    }
+    #aboutHeader{
+        margin: 15px 0px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 577px to 768px) */
 @media only screen and (max-width: 768px) {
-
+    #aboutMe{
+        grid-template-columns: 95%;
+    }
 }
 
 /* Extra small devices (phones, 576px and down) */
 @media only screen and (max-width: 576px) {
-
+    #aboutMe{
+        margin: 20px 25px;
+        grid-template-columns: 100%;
+        grid-template-rows: 40% 60%;
+    }
+    #aboutMePost{
+        width: 250px;
+    }
 }
