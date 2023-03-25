@@ -20,3 +20,9 @@ The intent to improve this project in the future is to utilize Node.js and Expre
 [Medium Bootcamp UX Collective](https://bootcamp.uxdesign.cc/dark-mode-toggle-%EF%B8%8F-5895c5a5892d)
 
 ## Screenshots
+![portfolio-light](https://user-images.githubusercontent.com/102393842/227743983-e253ba42-3153-498d-946c-36ca38f1cfca.png)
+![portfolio-dark](https://user-images.githubusercontent.com/102393842/227743996-9110dad3-e456-427f-86ac-7bc0d9a83c12.png)
+![about-light](https://user-images.githubusercontent.com/102393842/227744000-f8d9be16-756d-4c87-a205-e5e274e696dd.png)
+![about-dark](https://user-images.githubusercontent.com/102393842/227744002-53382fd4-b573-4084-8a71-ba8904d56e2d.png)
+![travel-light](https://user-images.githubusercontent.com/102393842/227744005-23f8f427-425b-48c1-a7e6-bd525a4187ac.png)
+![travel-dark](https://user-images.githubusercontent.com/102393842/227744009-803d3979-a9dc-4376-8905-32cb29b561b6.png)
