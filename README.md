@@ -16,7 +16,7 @@ Initially, the project portfolio was intended to make a call to Instagram API to
 The intent to improve this project in the future is to utilize Node.js and Express to create an API that can be called to dynamically return the images from the file storage or a database.
 
 ## Credits
-[W3Schools](https://www.w3schools.com/howto/default.asp)
+[W3Schools](https://www.w3schools.com/howto/default.asp)<br/>
 [Medium Bootcamp UX Collective](https://bootcamp.uxdesign.cc/dark-mode-toggle-%EF%B8%8F-5895c5a5892d)
 
 ## Screenshots
