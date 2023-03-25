@@ -49,7 +49,7 @@ const navContent = document.getElementById("navContent");
 const navLi = document.querySelectorAll(".navLinks");
 
 coll.addEventListener("click", function() {
-    this.classList.toggle("active");
+    this.classList.toggle("collActive");
     if (navContent.style.display === "block") {
         navContent.style.display = "none";
     } else {

@@ -19,11 +19,6 @@ a:hover{
     color: white !important; /* !important to override coll color */
 }
 
-/* .lightMode {
-    background-color: white; 
-    color: black; 
-} */
-
 .hidden {
     display: none;
 }
@@ -151,7 +146,7 @@ a:hover{
         border: none;
         background-color: transparent;
     }
-    .active, #collapsible:hover {
+    .collActive, #collapsible:hover {
         background-color: #ccc;
     }
     #navContent {
