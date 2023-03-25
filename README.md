@@ -7,7 +7,7 @@ This project showcases existing fundamentals of HTML, CSS, and JavaScript and al
 ## To Run
 Live: https://jin-karen.github.io/photo-portfolio/
 
-Project was coded for 1920x1080 display resolution and adjustments were made for smaller screens.
+Project was coded for 1920x1080 display resolution and adjustments were made for smaller screens.<br/>
 Desktop chrome usage at 1920x1080 is recommended for best viewing and interacting experience.
 
 ## Process
