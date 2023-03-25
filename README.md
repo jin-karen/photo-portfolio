@@ -5,7 +5,7 @@ A photo portfolio website built for a food instagram account using HTML, CSS, an
 This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, etc.
 
 ## To Run
-Live: https://jin-karen.github.io/
+Live: https://jin-karen.github.io/photo-portfolio/
 
 Project was coded for 1920x1080 display resolution and adjustments were made for smaller screens.
 Desktop chrome usage at 1920x1080 is recommended for best viewing and interacting experience.
