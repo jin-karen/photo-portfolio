@@ -133,7 +133,7 @@ a:hover{
     }
 }
 
-/* Extra small devices (phones, 576px and down) */
+/* Extra small devices (phones, 386px to 576px) */
 @media only screen and (max-width: 576px) {
     .navContainer{
         margin: 0px 10px;
@@ -178,5 +178,18 @@ a:hover{
     }
     #label{
         float: none;
+    }
+}
+
+/* Extra small devices (phones, 385px and down) */
+@media only screen and (max-width: 385px) {
+    #brand{
+        font-size: 25px;
+    }
+    #contact{
+        top: 7px;
+    }
+    #darkModeBtn{
+        top: 7px;
     }
 }

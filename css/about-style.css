@@ -107,8 +107,9 @@
         margin: 20px 80px;
         grid-template-columns: 65%;
         grid-template-rows: 50% 50%;
-        height: 80%;
-        gap: 0px;
+        /* height: 80%; */
+        height: auto;
+        gap: 30px;
         text-align: center;
     }
     #aboutMePost{
@@ -127,14 +128,36 @@
     }
 }
 
-/* Extra small devices (phones, 576px and down) */
+/* Small devices (phones, 386px to 576px) */
 @media only screen and (max-width: 576px) {
     #aboutMe{
         margin: 20px 25px;
         grid-template-columns: 100%;
         grid-template-rows: 40% 60%;
+        gap: 35px;
     }
     #aboutMePost{
         width: 250px;
+    }
+}
+
+/* Extra small devices (phones, 385px and down) */
+@media only screen and (max-width: 385px) {
+    #aboutMe{
+        gap: 15px;
+    }
+    #aboutFooter{
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+/* Extra small devices (phones, 385px and down with max-height of 959px) */
+@media only screen and (max-width: 480px) and (max-height: 959px) {
+    #aboutFooter{
+        position: relative;
+        text-align: center;
+        padding-bottom: 10px;
     }
 }
