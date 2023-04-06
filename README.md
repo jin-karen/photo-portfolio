@@ -2,7 +2,7 @@
 ## Description
 A photo portfolio website built for a food instagram account using HTML, CSS, and JavaScript. This project allowed the opportunity to provide a service and build a site for a client that showcases their portfolio, includes an about me, and includes a slideshow for travel photos. 
 
-This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, width and height media queries for a responsive design, custom domain name, etc.
+This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on using width and height media queries for a responsive design, custom domain names, and building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, etc.
 
 ## To Run
 Live: https://satedcraving.com/
@@ -26,4 +26,4 @@ The intent to improve this project in the future is to utilize Node.js and Expre
 ![about-dark](https://user-images.githubusercontent.com/102393842/227744002-53382fd4-b573-4084-8a71-ba8904d56e2d.png)
 ![travel-light](https://user-images.githubusercontent.com/102393842/227744005-23f8f427-425b-48c1-a7e6-bd525a4187ac.png)
 ![travel-dark](https://user-images.githubusercontent.com/102393842/227744009-803d3979-a9dc-4376-8905-32cb29b561b6.png)
-&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/102393842/230303902-a0a29a52-fbe9-4736-89d1-47c676de24d3.PNG" width="300"/></kbd> &nbsp;&nbsp;&nbsp; <kbd><img src="https://user-images.githubusercontent.com/102393842/230303967-c3563603-0f94-43e7-97b2-41d35b797923.PNG" width="300" style="margin:0px 50px;"/></kbd> &nbsp;&nbsp;&nbsp; <kbd><img src="https://user-images.githubusercontent.com/102393842/230303945-dc9b26db-a59e-4495-8dd0-9496b0d1d666.PNG" width="300"/></kbd> 
+&nbsp;&nbsp;&nbsp;<kbd><img src="https://user-images.githubusercontent.com/102393842/230303902-a0a29a52-fbe9-4736-89d1-47c676de24d3.PNG" width="300"/></kbd> &nbsp;&nbsp;&nbsp; <kbd><img src="https://user-images.githubusercontent.com/102393842/230303967-c3563603-0f94-43e7-97b2-41d35b797923.PNG" width="300" style="margin:0px 50px;"/></kbd> &nbsp;&nbsp;&nbsp; <kbd><img src="https://user-images.githubusercontent.com/102393842/230303945-dc9b26db-a59e-4495-8dd0-9496b0d1d666.PNG" width="300"/></kbd> 
