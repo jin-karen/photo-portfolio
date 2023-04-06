@@ -1,13 +1,13 @@
 # photo-portfolio
 ## Description
-A photo portfolio website built for a food instagram account using HTML, CSS, and JavaScript. This project allowed the opportunity to provide a service and build a site for a mock-client that showcases their portfolio, includes an about me, and includes a slideshow for travel photos. 
+A photo portfolio website built for a food instagram account using HTML, CSS, and JavaScript. This project allowed the opportunity to provide a service and build a site for a client that showcases their portfolio, includes an about me, and includes a slideshow for travel photos. 
 
-This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, etc.
+This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, width and height media queries for a responsive design, etc.
 
 ## To Run
-Live: https://jin-karen.github.io/photo-portfolio/
+Live: https://satedcraving.com/
 
-Project was coded for 1920x1080 display resolution and adjustments were made for smaller screens.<br/>
+Project was coded for 1920x1080 display resolution and adjustments were made for smaller screens and mobile devices.<br/>
 Desktop chrome usage at 1920x1080 is recommended for best viewing and interacting experience.
 
 ## Process
