@@ -2,7 +2,7 @@
 ## Description
 A photo portfolio website built for a food instagram account using HTML, CSS, and JavaScript. This project allowed the opportunity to provide a service and build a site for a client that showcases their portfolio, includes an about me, and includes a slideshow for travel photos. 
 
-This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, width and height media queries for a responsive design, etc.
+This project showcases existing fundamentals of HTML, CSS, and JavaScript and allowed me to expand my knowledge on building specific components from scratch. Learned components include a dark mode toggle (maintained across multiple pages with sessionStorage), a responsive navigation bar with collapsible content, adding in a typewriter effect, slideshow with a corresponding caption and gallery, width and height media queries for a responsive design, custom domain name, etc.
 
 ## To Run
 Live: https://satedcraving.com/
