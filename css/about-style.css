@@ -134,6 +134,10 @@
 
 /* Small devices (phones, 386px to 576px) */
 @media only screen and (max-width: 576px) {
+    #typeWriter{
+        margin: 10px 80px;
+        height: 70px;
+    }
     #aboutMe{
         margin: 20px 25px;
         grid-template-columns: 100%;
