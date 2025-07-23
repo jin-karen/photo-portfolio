@@ -1,5 +1,5 @@
 const portfolio = document.getElementById('portfolio');
-const numPhotos = 36;
+const numPhotos = 53;
 
 for (let i = numPhotos; i>0; i--) {
     const portImg = document.createElement('img');
